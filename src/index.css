@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0px;
+}
+
+.restaurant-logo img {
+  width: 200px;
+  padding: 20px 0px;
+}
+.restaurant-banner {
+  overflow-x: hidden;
+}
+.banner-item img {
+  width: 100%;
+}
+.restaurant-banner .slick-dots {
+  bottom: 15px;
+}
+.restaurant-banner .slick-dots li button:before {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 8px;
+}
+.restaurant-banner .slick-dots li.slick-active button:before {
+  opacity: 1;
+}
+.restaurant-list {
+  padding: 50px 0px;
+}
+.restaurant-list .searchinput {
+  border: 1px solid #333;
+  border-radius: 30px;
+  width: 230px;
+  padding: 5px 15px;
+  outline: none;
+  font-size: 15px;
+}
+.search-res-div i {
+  position: absolute;
+  right: 26px;
+  top: 7px;
+  font-size: 20px;
+}
+.restaurant-list-container {
+  padding-top: 30px;
+}
+.restaurant-list-box {
+  box-shadow: 0px 0px 10px #ccc;
+  margin: 15px 0px;
+}
+.restaurant-list-box .restaurant-list-box-left img {
+  width: 100%;
+}
+.restaurant-list-box .restaurant-list-box-right h4 {
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+}
+.restaurant-list-box-link:hover {
+  text-decoration: none;
+}
+.restaurant-list-box .restaurant-list-box-right p {
+  margin-bottom: 0px;
+  color: #333;
+  text-decoration: none;
+}
+.footer-bottom {
+  background: #333;
+  color: #fff;
+  padding: 10px 0px;
+}
+.restaurant-page {
+  padding-bottom: 50px;
+}
+.restaurantpg-box {
+  margin: 10px 0px;
+}
+.restaurantpg-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.restaurantpg-box h5 {
+  text-align: center;
+}
+.restaurantpg-image img {
+  width: 100%;
+}
+.restaurant-page-header {
+  margin-bottom: 15px;
+}
+.restaurant-details-para {
+  margin-bottom: 15px;
+}
+.restaurantpg-heading {
+  margin-bottom: 10px;
+}
+.restaurant-details {
+  padding: 30px 0px;
+}
+.restaurantpg-dishname {
+  padding: 5px 0px
+}
+.indv-restbanner {
+  background: #999;
+  padding: 20px 0px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
